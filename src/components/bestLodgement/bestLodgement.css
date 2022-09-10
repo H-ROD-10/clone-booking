@@ -1,0 +1,39 @@
+.best{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.bestItems{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bestImg{
+    width: 100%;
+    border-radius: 5px;
+}
+.bestName{
+    font-weight: bold;
+}
+.bestCity{
+    font-weight: 500;
+}
+.bestNPrice{
+    font-weight: 600;
+    color: #d72d2d96;
+}
+.bestRating>button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.bestRating>span{
+    font-size: 14;
+    font-weight: 500;
+}

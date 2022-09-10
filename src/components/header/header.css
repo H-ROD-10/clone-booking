@@ -1,0 +1,111 @@
+.header{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+.headerContainer.headerHotels{
+    margin: 20px 0px 0px 0px;
+}
+.headerList{
+    display: flex;
+    gap: 40px;
+}
+.headerListItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.headerListItems.active{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headerBtn{
+    border: none;
+    border-radius: 5px;
+    color: orangered;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #ff0000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.searchIcon{
+    color: lightslategrey;
+}
+.headerSearchItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headerSearchText{
+    color: lightslategray;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+.optionsItems{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+.optionCounterBtn{
+    background-color: white;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}
